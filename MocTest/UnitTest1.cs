@@ -13,3 +13,33 @@ namespace MocTest
         }
     }
 }
+
+
+
+/*
+ * Andrea testing notes
+
+public void TestEngine()
+{
+	// need to see if the Engine starts
+	// Test constructor function for Vehicle(Engine)
+	// Calls bool::Start()
+	// Does Start(return true)
+}
+
+
+[TestMethod]
+public void TestMethod1()
+{
+
+	var person = new Mock<Person>();
+	person.Setup(p => p.Validate(
+		 It.IsAny<string>(),
+		 21,
+		 It.IsAny<string>())).Returns(false);
+	Assert.IsFalse(
+		 person.Object.Validate("Jordan", 21, "Russia"));
+
+}
+
+*/
