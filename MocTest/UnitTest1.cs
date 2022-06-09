@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 
 namespace MocTest
 {
@@ -8,7 +9,7 @@ namespace MocTest
         [TestMethod]
         public void TestEngine()
         {
-            
+            //var Vehicle = new Mock<Vehicle>();
         }
     }
 }
