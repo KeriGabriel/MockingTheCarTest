@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 
 namespace MocTest
 {
@@ -8,10 +9,7 @@ namespace MocTest
         [TestMethod]
         public void TestEngine()
         {
-			// need to see if the Engine starts
-			// Test constructor function for Vehicle(Engine)
-			// Calls bool::Start()
-			// Does Start(return true)
+            //var Vehicle = new Mock<Vehicle>();
         }
     }
 }
