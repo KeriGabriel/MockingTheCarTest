@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MockingTheCarTest;
 using Moq;
 
 namespace MocTest
@@ -9,7 +10,9 @@ namespace MocTest
         [TestMethod]
         public void TestEngine()
         {
-            //var Vehicle = new Mock<Vehicle>();
+            var vehicle = new Mock<Vehicle>();
+            var engine = new Mock<Engine>();
+
         }
     }
 }
